@@ -1,7 +1,7 @@
 # THE WINTER WAR: How Finland Survived Stalin's Invasion (1939–1940)
 
 **Narration draft — fact-check before recording**  
-**Target:** approximately 11–13 minutes, depending on delivery.  
+**Target:** approximately 9 minutes, depending on delivery.  
 **Editorial position:** Finland survived as an independent state; it did not defeat the Soviet Union.
 
 ## 1. The invasion
