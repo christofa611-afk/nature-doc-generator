@@ -1,0 +1,61 @@
+[
+  {
+    "source_id": "SRC01",
+    "title": "Winter War began 80 years ago today",
+    "publisher": "Finnish Government",
+    "url": "https://valtioneuvosto.fi/en/-/winter-war-began-80-years-ago-today",
+    "supports": [
+      "Invasion began 30 November 1939"
+    ],
+    "source_type": "official historical commemoration",
+    "rights_note": "Research reference only; do not reuse page media without item-level rights review"
+  },
+  {
+    "source_id": "SRC02",
+    "title": "End of Winter War to be commemorated on 13 March",
+    "publisher": "Finnish Government",
+    "url": "https://valtioneuvosto.fi/en/-/end-of-winter-war-to-be-commemorated-on-13-march",
+    "supports": [
+      "War ended 13 March 1940",
+      "105-day duration"
+    ],
+    "source_type": "official historical commemoration",
+    "rights_note": "Research reference only"
+  },
+  {
+    "source_id": "SRC03",
+    "title": "Finnish Military Effectiveness in the Winter War 1939–1940",
+    "publisher": "Pasi Tuunainen / Palgrave Macmillan",
+    "url": "https://link.springer.com/book/10.1057/978-1-137-44606-0",
+    "supports": [
+      "Finnish tactical and operational effectiveness",
+      "Logistics, leadership, terrain and adaptation"
+    ],
+    "source_type": "academic monograph",
+    "rights_note": "Research reference only; copyrighted"
+  },
+  {
+    "source_id": "SRC04",
+    "title": "Breaking the Mannerheim Line: Soviet Strategic And Tactical Adaptation in the Finnish-Soviet Winter War",
+    "publisher": "War on the Rocks",
+    "url": "https://warontherocks.com/breaking-the-mannerheim-line-soviet-strategic-and-tactical-adaptation-in-the-finnish-soviet-winter-war/",
+    "supports": [
+      "Soviet operational adaptation",
+      "February 1940 breakthrough context"
+    ],
+    "source_type": "military history analysis",
+    "rights_note": "Research reference only"
+  },
+  {
+    "source_id": "SRC05",
+    "title": "The Russian Record of the Winter War, 1939–1940",
+    "publisher": "University of Maryland Digital Repository",
+    "url": "https://drum.lib.umd.edu/items/29bcd3f6-1545-4b26-8131-3b93db6a02ad",
+    "supports": [
+      "Soviet contemporary record and propaganda context",
+      "Soviet tactical shortcomings and adaptation"
+    ],
+    "source_type": "academic dissertation",
+    "rights_note": "Research reference only"
+  }
+]
