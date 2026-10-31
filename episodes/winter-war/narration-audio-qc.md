@@ -30,3 +30,13 @@ Status: WAV generated successfully; human listening review still required.
 
 ## Release restriction
 This is a generated draft voice track, not a final approved narration. Do not publish until a human listens to the entire file, checks pronunciation against the script, corrects any errors, and verifies applicable licences.
+
+
+## Corrected-script regeneration — 31 October 2026
+- Workflow: GitHub Actions run 41156313009
+- Result: success; generation and artifact upload steps completed.
+- Artifact: `winter-war-narration-and-captions` (artifact ID 13024244782; 19,567,071 bytes).
+- This run uses the revised `narration.md` after removal of the unsupported “many observers expected” sentence.
+- WAV, SRT, timing JSON and runtime manifest were included in the generated artifact by the workflow configuration. The archive was downloaded for inspection, but its internal files could not be independently opened in this session; therefore duration, exact cue timings, audio technical measurements and SRT integrity are NOT YET VERIFIED for this corrected run.
+- The earlier 535.025-second measurement applies to the previous script version only and must not be carried forward as the corrected track's runtime.
+- Full human listening review remains NOT COMPLETED. Do not publish.
