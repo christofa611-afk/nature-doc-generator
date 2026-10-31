@@ -82,5 +82,31 @@
     ],
     "source_type": "contemporary diplomatic record",
     "rights_note": "Research reference; do not reproduce extended text"
+  },
+  {
+    "source_id": "SRC08",
+    "title": "Mannerheim Line",
+    "publisher": "Mannerheim.fi historical site",
+    "url": "https://www.mannerheim.fi/10_ylip/e_mlinja.htm",
+    "supports": [
+      "Fortification system included dispersed concrete positions and shelters",
+      "Line was not equivalent to the Maginot Line",
+      "Soviet breakthrough near Summa after heavy bombardment in February 1940"
+    ],
+    "source_type": "historical overview",
+    "rights_note": "Research reference only; verify any images separately"
+  },
+  {
+    "source_id": "SRC09",
+    "title": "Finland Study",
+    "publisher": "U.S. Marine Corps",
+    "url": "https://www.marines.mil/portals/1/Publications/Finland%20Study_1.pdf",
+    "supports": [
+      "Soviet offensive began 1 February 1940",
+      "Breakthrough on 11 February 1940",
+      "Moscow Peace terms and territorial cessions"
+    ],
+    "source_type": "military historical study",
+    "rights_note": "Research reference; verify specific claims against cited notes and maps"
   }
 ]
