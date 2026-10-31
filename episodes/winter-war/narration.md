@@ -10,7 +10,7 @@ On 30 November 1939, Soviet forces crossed into Finland.
 
 The attack came after weeks of failed negotiations and a crisis over the security of Leningrad, the Soviet city now known as St Petersburg. Moscow wanted Finland to move its border farther from the city and make other territorial and military concessions. Finnish leaders feared that accepting those demands would leave their country exposed to further pressure.
 
-The Soviet Union was vastly larger. Its population, industrial base and armed forces dwarfed Finland's. Many observers expected the campaign to be short.
+The Soviet Union possessed a far larger population, industrial base and pool of military resources than Finland.
 
 But Finland was not an empty space on a map. It was a country of forests, lakes, narrow roads and scattered settlements. Its army was smaller, but its soldiers knew the terrain, could move on skis, and had prepared to defend their homeland.
 
