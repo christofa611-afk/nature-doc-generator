@@ -1,0 +1,35 @@
+name: Render original Winter War motion graphics
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'tools/render_winter_war_graphics.py'
+      - '.github/workflows/render-motion-graphics.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install FFmpeg
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Render original animated graphics
+        run: python tools/render_winter_war_graphics.py
+      - name: Upload motion graphics
+        uses: actions/upload-artifact@v4
+        with:
+          name: winter-war-motion-graphics
+          path: episodes/winter-war/generated/*.mp4
+          if-no-files-found: error
+          retention-days: 30
