@@ -25,3 +25,7 @@ Status: development. Narration draft, 17-scene moving-footage plan, source regis
 6. Only after all checks pass, render, review and prepare upload.
 
 A passing automated check is not proof of historical accuracy, licence validity, video quality or policy compliance.
+
+
+## Motion-graphics renderer
+An Actions workflow at `.github/workflows/render-motion-graphics.yml` generates three original explanatory MP4 motion-graphic clips using FFmpeg on a standard CPU runner. These are maps/timeline graphics, not AI-generated historical footage. Download the `winter-war-motion-graphics` workflow artifact from the Actions run after completion.
