@@ -1,0 +1,215 @@
+[
+  {
+    "scene_id": "S01",
+    "narration_anchor": "Opening: the invasion begins",
+    "visual_description": "Reconstructed Soviet columns cross the Finnish frontier at dawn; Finnish border landscape and period-correct equipment.",
+    "motion": "Tracked camera follows a column moving through snow; exhaust drifts, soldiers move naturally, snow falls lightly.",
+    "asset_type": "ai_reconstruction_video",
+    "rights_status": "hold",
+    "source_ids": [
+      "SRC01"
+    ],
+    "disclosure_required": true
+  },
+  {
+    "scene_id": "S02",
+    "narration_anchor": "Finland's geography and strategic position",
+    "visual_description": "Original animated editorial map showing Finland, Leningrad, the Karelian Isthmus and the 1939 border.",
+    "motion": "Map camera moves slowly from regional overview to the Isthmus; front line draws on screen.",
+    "asset_type": "original_editorial_map",
+    "rights_status": "not_applicable",
+    "source_ids": [
+      "SRC01",
+      "SRC05"
+    ]
+  },
+  {
+    "scene_id": "S03",
+    "narration_anchor": "The Soviet invasion across multiple fronts",
+    "visual_description": "Wide winter forest road with a historically plausible Soviet infantry column and period trucks.",
+    "motion": "Low tracking shot alongside vehicles and marching infantry; exhaust and snow movement visible.",
+    "asset_type": "ai_reconstruction_video",
+    "rights_status": "hold",
+    "source_ids": [
+      "SRC01",
+      "SRC05"
+    ],
+    "disclosure_required": true
+  },
+  {
+    "scene_id": "S04",
+    "narration_anchor": "Finnish mobilisation and defensive preparations",
+    "visual_description": "Finnish reservists prepare winter clothing, skis and field equipment in a rural staging area.",
+    "motion": "Close moving camera observes hands fastening equipment, soldiers mounting skis and departing.",
+    "asset_type": "ai_reconstruction_video",
+    "rights_status": "hold",
+    "source_ids": [
+      "SRC03"
+    ],
+    "disclosure_required": true
+  },
+  {
+    "scene_id": "S05",
+    "narration_anchor": "The terrain shapes the campaign",
+    "visual_description": "Aerial-style view of frozen lakes, dense forest, narrow roads and scattered settlements.",
+    "motion": "Continuous drone-like glide over the landscape; wind moves tree branches and blowing snow.",
+    "asset_type": "ai_reconstruction_video",
+    "rights_status": "hold",
+    "source_ids": [
+      "SRC03",
+      "SRC04"
+    ],
+    "disclosure_required": true
+  },
+  {
+    "scene_id": "S06",
+    "narration_anchor": "Suomussalmi and the Raate Road",
+    "visual_description": "Winter road cut through forest with isolated Soviet vehicles and defensive positions in the distance.",
+    "motion": "Camera advances along the road as distant figures move between cover; no graphic combat.",
+    "asset_type": "ai_reconstruction_video",
+    "rights_status": "hold",
+    "source_ids": [
+      "SRC03",
+      "SRC04"
+    ],
+    "disclosure_required": true
+  },
+  {
+    "scene_id": "S07",
+    "narration_anchor": "Motti tactics explained accurately",
+    "visual_description": "Original top-down operational map showing road, separated formations, and Finnish blocking positions.",
+    "motion": "Units and supply route animate in sequence; labels clarify encirclement without implying every pocket was destroyed.",
+    "asset_type": "original_editorial_map",
+    "rights_status": "not_applicable",
+    "source_ids": [
+      "SRC03",
+      "SRC04"
+    ]
+  },
+  {
+    "scene_id": "S08",
+    "narration_anchor": "The human cost and winter conditions",
+    "visual_description": "Finnish field medics and soldiers move a wounded comrade on a sled through snowy woodland.",
+    "motion": "Handheld documentary-style follow shot; careful restrained movement, no graphic injury.",
+    "asset_type": "ai_reconstruction_video",
+    "rights_status": "hold",
+    "source_ids": [
+      "SRC03",
+      "SRC05"
+    ],
+    "disclosure_required": true
+  },
+  {
+    "scene_id": "S09",
+    "narration_anchor": "The Mannerheim Line was not an impenetrable wall",
+    "visual_description": "Period-accurate defensive earthworks, trenches, obstacles and modest concrete bunkers integrated into terrain.",
+    "motion": "Slow lateral tracking shot reveals dispersed positions and snow-covered fieldworks.",
+    "asset_type": "ai_reconstruction_video",
+    "rights_status": "hold",
+    "source_ids": [
+      "SRC03",
+      "SRC04"
+    ],
+    "disclosure_required": true
+  },
+  {
+    "scene_id": "S10",
+    "narration_anchor": "Soviet command learns and reorganises",
+    "visual_description": "Soviet staff officers study maps and artillery tables in a field command post.",
+    "motion": "Camera moves past map table as officers point, write and exchange documents; no invented readable orders.",
+    "asset_type": "ai_reconstruction_video",
+    "rights_status": "hold",
+    "source_ids": [
+      "SRC04",
+      "SRC05"
+    ],
+    "disclosure_required": true
+  },
+  {
+    "scene_id": "S11",
+    "narration_anchor": "February artillery bombardment",
+    "visual_description": "Soviet artillery positions fire toward distant Finnish defensive terrain; smoke and snow obscure horizon.",
+    "motion": "Gun crews load and fire in controlled sequence; recoil and smoke behave plausibly, no close-up gore.",
+    "asset_type": "ai_reconstruction_video",
+    "rights_status": "hold",
+    "source_ids": [
+      "SRC04"
+    ],
+    "disclosure_required": true
+  },
+  {
+    "scene_id": "S12",
+    "narration_anchor": "The defensive line is breached",
+    "visual_description": "Soviet infantry and tanks advance through a damaged defensive sector under winter haze.",
+    "motion": "Camera tracks advancing infantry behind tanks; debris and smoke move naturally.",
+    "asset_type": "ai_reconstruction_video",
+    "rights_status": "hold",
+    "source_ids": [
+      "SRC04",
+      "SRC05"
+    ],
+    "disclosure_required": true
+  },
+  {
+    "scene_id": "S13",
+    "narration_anchor": "Finland faces the decision to negotiate",
+    "visual_description": "Finnish political leaders enter a government meeting building; use generic non-identifiable reconstruction unless verified likeness is essential.",
+    "motion": "Exterior-to-interior tracking shot of officials entering, coats moving in winter wind.",
+    "asset_type": "ai_reconstruction_video",
+    "rights_status": "hold",
+    "source_ids": [
+      "SRC02",
+      "SRC05"
+    ],
+    "disclosure_required": true
+  },
+  {
+    "scene_id": "S14",
+    "narration_anchor": "The Moscow Peace Treaty",
+    "visual_description": "Close-up of period diplomatic papers, pen and winter light; do not fabricate legible treaty text.",
+    "motion": "Slow push-in across paper as a hand turns a page; no invented signature.",
+    "asset_type": "ai_reconstruction_video",
+    "rights_status": "hold",
+    "source_ids": [
+      "SRC02",
+      "SRC05"
+    ],
+    "disclosure_required": true
+  },
+  {
+    "scene_id": "S15",
+    "narration_anchor": "Displacement and territorial loss",
+    "visual_description": "Finnish civilian families travel with belongings through a winter settlement; original map indicates cessions only after verification.",
+    "motion": "Camera follows families walking along a snowy road; restrained, human-focused scene.",
+    "asset_type": "ai_reconstruction_video",
+    "rights_status": "hold",
+    "source_ids": [
+      "SRC02"
+    ],
+    "disclosure_required": true
+  },
+  {
+    "scene_id": "S16",
+    "narration_anchor": "What the war did and did not prove",
+    "visual_description": "Quiet modern view of Finnish forest and memorial landscape, clearly identified as present-day if used.",
+    "motion": "Natural wind through trees; slow steady camera move; no staged historical action.",
+    "asset_type": "original_or_licensed_video",
+    "rights_status": "hold",
+    "source_ids": [
+      "SRC03",
+      "SRC04"
+    ]
+  },
+  {
+    "scene_id": "S17",
+    "narration_anchor": "Closing reflection",
+    "visual_description": "Wide winter landscape at dusk with a subtle transition to a verified map of postwar Finland.",
+    "motion": "Slow forward glide through trees to open snowy landscape; dissolve to map.",
+    "asset_type": "original_editorial_map",
+    "rights_status": "not_applicable",
+    "source_ids": [
+      "SRC02",
+      "SRC03"
+    ]
+  }
+]
