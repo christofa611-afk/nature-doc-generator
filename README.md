@@ -29,3 +29,7 @@ A passing automated check is not proof of historical accuracy, licence validity,
 
 ## Motion-graphics renderer
 An Actions workflow at `.github/workflows/render-motion-graphics.yml` generates three original explanatory MP4 motion-graphic clips using FFmpeg on a standard CPU runner. These are maps/timeline graphics, not AI-generated historical footage. Download the `winter-war-motion-graphics` workflow artifact from the Actions run after completion.
+
+
+## Open-weight narration
+The workflow `.github/workflows/generate-narration.yml` synthesizes the episode narration with Kokoro-82M (`am_michael`) on a standard CPU runner. The model card lists Apache-2.0 weights. The generated voice is synthetic and must be reviewed for pronunciation, pacing, intelligibility and consistency before use. This is a separate open-weight workflow, not a paid TTS API.
