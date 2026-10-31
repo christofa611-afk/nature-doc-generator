@@ -22,14 +22,23 @@ LANG = "a"
 SAMPLE_RATE = 24000
 
 def clean_markdown(text):
-    # Remove editorial metadata so production notes are never spoken.
-    text = re.sub(r"^#.*$", "", text, flags=re.M)
-    text = re.sub(r"^\\*\\*(?:Narration draft|Target|Editorial position).*?\\*\\*\\s*$", "", text, flags=re.M)
-    text = re.sub(r"^\\*\\*End\\.\\*\\*\\s*$", "", text, flags=re.M)
-    text = re.sub(r"\\*\\*(.*?)\\*\\*", r"\\1", text)
-    text = re.sub(r"(?<!\\*)\\*([^*]+)\\*(?!\\*)", r"\\1", text)
-    text = re.sub(r"^\\s*[-*_]{3,}\\s*$", "", text, flags=re.M)
-    text = re.sub(r"\\s+", " ", text)
+    # Strip headings and editorial metadata; retain only narration paragraphs.
+    kept = []
+    for line in text.splitlines():
+        stripped = line.strip()
+        if not stripped or stripped.startswith("#"):
+            continue
+        if re.match(r"^\*\*(?:Narration draft|Target|Editorial position)\b", stripped, re.I):
+            continue
+        if re.match(r"^\*\*End\.\*\*$", stripped, re.I):
+            continue
+        if re.match(r"^[-*_]{3,}$", stripped):
+            continue
+        kept.append(stripped)
+    text = "\n".join(kept)
+    text = re.sub(r"\*\*(.*?)\*\*", r"\1", text)
+    text = re.sub(r"\*([^*]+)\*", r"\1", text)
+    text = re.sub(r"\s+", " ", text)
     return text.strip()
 
 def srt_time(seconds):
@@ -50,7 +59,7 @@ def main():
     pipe = KPipeline(lang_code=LANG)
     # One narration sentence per synthesis batch gives useful sentence-level
     # cue boundaries. Never invent sub-sentence timestamps.
-    batches = [s.strip() for s in re.split(r"(?<=[.!?])\\s+", text) if s.strip()]
+    batches = [s.strip() for s in re.split(r"(?<=[.!?])\s+", text) if s.strip()]
 
     chunks, segments = [], []
     cursor = 0.0
