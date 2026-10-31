@@ -57,5 +57,30 @@
     ],
     "source_type": "academic dissertation",
     "rights_note": "Research reference only"
+  },
+  {
+    "source_id": "SRC06",
+    "title": "Foreign Relations of the United States, 1940, Volume I, Document 287",
+    "publisher": "U.S. Department of State, Office of the Historian",
+    "url": "https://history.state.gov/historicaldocuments/frus1940v01/d287",
+    "supports": [
+      "Moscow Peace Treaty protocol: cessation of hostilities at 12 noon March 13 Leningrad time",
+      "Treaty and protocol signatories",
+      "Treaty entry into force on signature"
+    ],
+    "source_type": "contemporary diplomatic record",
+    "rights_note": "Research reference; verify rights for any reused page images"
+  },
+  {
+    "source_id": "SRC07",
+    "title": "Foreign Relations of the United States, 1940, Volume I, Document 288",
+    "publisher": "U.S. Department of State, Office of the Historian",
+    "url": "https://history.state.gov/historicaldocuments/frus1940v01/d288",
+    "supports": [
+      "Contemporary report of Finnish government announcement on March 13",
+      "Contemporary account of Finnish government's reasons for accepting peace"
+    ],
+    "source_type": "contemporary diplomatic record",
+    "rights_note": "Research reference; do not reproduce extended text"
   }
 ]
