@@ -22,12 +22,14 @@ LANG = "a"
 SAMPLE_RATE = 24000
 
 def clean_markdown(text):
+    # Remove editorial metadata so production notes are never spoken.
     text = re.sub(r"^#.*$", "", text, flags=re.M)
-    text = re.sub(r"^\*\*End\.\*\*\s*$", "", text, flags=re.M)
-    text = re.sub(r"\*\*(.*?)\*\*", r"\1", text)
-    text = re.sub(r"(?<!\*)\*([^*]+)\*(?!\*)", r"\1", text)
-    text = re.sub(r"^\s*[-*_]{3,}\s*$", "", text, flags=re.M)
-    text = re.sub(r"\s+", " ", text)
+    text = re.sub(r"^\\*\\*(?:Narration draft|Target|Editorial position).*?\\*\\*\\s*$", "", text, flags=re.M)
+    text = re.sub(r"^\\*\\*End\\.\\*\\*\\s*$", "", text, flags=re.M)
+    text = re.sub(r"\\*\\*(.*?)\\*\\*", r"\\1", text)
+    text = re.sub(r"(?<!\\*)\\*([^*]+)\\*(?!\\*)", r"\\1", text)
+    text = re.sub(r"^\\s*[-*_]{3,}\\s*$", "", text, flags=re.M)
+    text = re.sub(r"\\s+", " ", text)
     return text.strip()
 
 def srt_time(seconds):
@@ -46,16 +48,9 @@ def main():
     OUT_DIR.mkdir(parents=True, exist_ok=True)
     print(f"Loading Kokoro TTS; {len(text)} characters; voice={VOICE}")
     pipe = KPipeline(lang_code=LANG)
-    sentences = re.split(r"(?<=[.!?])\s+", text)
-    batches, batch = [], ""
-    for sentence in sentences:
-        if len(batch) + len(sentence) > 420 and batch:
-            batches.append(batch.strip())
-            batch = sentence
-        else:
-            batch = (batch + " " + sentence).strip()
-    if batch:
-        batches.append(batch)
+    # One narration sentence per synthesis batch gives useful sentence-level
+    # cue boundaries. Never invent sub-sentence timestamps.
+    batches = [s.strip() for s in re.split(r"(?<=[.!?])\\s+", text) if s.strip()]
 
     chunks, segments = [], []
     cursor = 0.0
