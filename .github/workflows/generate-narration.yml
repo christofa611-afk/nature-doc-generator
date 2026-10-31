@@ -1,4 +1,4 @@
-name: Generate Winter War narration (open-weight TTS)
+name: Generate Winter War narration and caption timing draft
 
 on:
   push:
@@ -30,12 +30,14 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install kokoro soundfile numpy
-      - name: Generate narration
-        run: python tools/generate_narration.py
-      - name: Upload narration WAV
+      - name: Generate narration and chunk timing
+        run: |
+          python tools/generate_narration.py
+          python -m pip freeze > episodes/winter-war/generated/pip-freeze.txt
+      - name: Upload narration, captions and runtime manifest
         uses: actions/upload-artifact@v4
         with:
-          name: winter-war-narration-wav
-          path: episodes/winter-war/generated/winter-war-narration.wav
+          name: winter-war-narration-and-captions
+          path: episodes/winter-war/generated/
           if-no-files-found: error
           retention-days: 30
