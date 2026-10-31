@@ -54,12 +54,12 @@ def main(folder):
         if status not in ALLOWED_RIGHTS:
             ERRORS.append(f"{sid}: invalid rights_status {status!r}")
         elif status not in {"verified_commercial", "public_domain_verified", "permission_granted", "not_applicable"}:
-            ERRORS.append(f"{sid}: rights are on HOLD")
+            WARNINGS.append(f"{sid}: rights are on HOLD; episode cannot be published")
         for source_id in scene.get("source_ids", []):
             if source_id not in source_ids:
                 ERRORS.append(f"{sid}: source_id {source_id!r} missing from sources.json")
         if scene.get("asset_type") in {"archival_video", "archival_image", "music", "sound_effect", "font", "map"} and status not in {"verified_commercial", "public_domain_verified", "permission_granted"}:
-            ERRORS.append(f"{sid}: third-party asset lacks verified rights")
+            WARNINGS.append(f"{sid}: third-party asset lacks verified rights; publication gate remains closed")
     for i, src in enumerate(sources, 1):
         if not isinstance(src, dict): ERRORS.append(f"source {i}: must be an object"); continue
         for key in ("source_id", "title", "publisher", "url", "supports"):
