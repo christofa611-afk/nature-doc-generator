@@ -1,0 +1,28 @@
+{
+  "title": "THE WINTER WAR: How Finland Survived Stalin's Invasion (1939–1940)",
+  "working_status": "development",
+  "format": "long_form_documentary",
+  "target_runtime_minutes": 12,
+  "research_cutoff": "2026-10-31",
+  "editorial_promise": "An evidence-led account of how Finland resisted the Soviet invasion, how Soviet forces adapted, and why the 1940 peace preserved Finnish independence at the cost of territory.",
+  "audience": "General adult history audience",
+  "narration_language": "English",
+  "historical_scope": "30 November 1939 to 13 March 1940, with limited pre-war context",
+  "key_accuracy_constraints": [
+    "Finland survived as an independent state; do not say it defeated the Soviet Union.",
+    "The Mannerheim Line was not a continuous concrete wall.",
+    "Motti tactics were situational and not universally successful.",
+    "Soviet forces adapted and broke through in February 1940.",
+    "Treaty signed 12 March 1940; fighting ceased 13 March 1940.",
+    "Avoid unsupported precise casualty or displacement totals."
+  ],
+  "production_status": {
+    "research": "initial source register assembled; claim-by-claim review still required",
+    "narration": "draft prepared; verify every claim and tighten to final runtime",
+    "scenes": "17-scene distinct moving-footage plan drafted",
+    "video_assets": "not generated or rights-cleared",
+    "voiceover": "not generated",
+    "edit": "not assembled",
+    "publication": "HOLD"
+  }
+}
