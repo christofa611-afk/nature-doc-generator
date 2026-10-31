@@ -18,11 +18,11 @@
   ],
   "production_status": {
     "research": "initial source register and operational supplements assembled; claim-by-claim review and second-source verification remain required",
-    "narration": "1,219-word draft; generated synthetic voiceover is 8:55.025; full human listening review, pronunciation correction and commercial licence verification remain outstanding",
+    "narration": "Corrected script regenerated successfully in workflow run 41156313009; generated audio and caption artifact uploaded; full human listening review, pronunciation correction and commercial licence verification remain outstanding",
     "scenes": "17-scene moving-footage plan drafted; scene clips not generated, inspected or rights-cleared",
     "graphics": "three original explanatory motion graphics generated; not substitutes for historical moving footage or verified geographic maps",
     "maps": "accuracy specification drafted; geographic maps not yet produced or approved",
-    "captions": "chunk-aligned SRT and timing JSON generation workflow running; final captions must be checked against mastered audio",
+    "captions": "Sentence/chunk-aligned SRT and timing JSON generated and uploaded in workflow run 41156313009; synchronization, cue quality and final audio alignment still require technical validation",
     "edit": "not assembled",
     "publication": "HOLD"
   }
