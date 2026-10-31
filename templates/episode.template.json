@@ -1,0 +1,16 @@
+{
+  "title": "",
+  "working_status": "development",
+  "format": "long_form_documentary",
+  "target_runtime_minutes": 12,
+  "research_cutoff": "YYYY-MM-DD",
+  "editorial_promise": "",
+  "audience": "General adult history audience",
+  "narration_language": "English",
+  "editorial_notes": [
+    "Neutral, evidence-led, globally contextualised",
+    "No fabricated quotations, dialogue, statistics or events",
+    "No repeated scenes or filler visuals"
+  ],
+  "publication_gate": "HOLD until manual review is complete"
+}
