@@ -17,6 +17,7 @@ OUT_DIR = ROOT / "episodes/winter-war/generated"
 OUT = OUT_DIR / "winter-war-narration.wav"
 TIMING_JSON = OUT_DIR / "winter-war-narration-segments.json"
 SRT = OUT_DIR / "winter-war-narration-draft.srt"
+QC_JSON = OUT_DIR / "caption-validation-report.json"
 VOICE = "am_michael"
 LANG = "a"
 SAMPLE_RATE = 24000
@@ -85,7 +86,7 @@ def main():
             })
             cursor += duration
         if not yielded:
-            print(f"WARNING: no audio returned for section {idx}")
+            raise SystemExit(f"TTS returned no audio for narration sentence {idx}: {part[:120]!r}")
 
     if not chunks:
         raise SystemExit("TTS returned no audio.")
@@ -109,7 +110,59 @@ def main():
             seg["text"],
             ""
         ])
-    SRT.write_text("\n".join(lines), encoding="utf-8")
+    srt_text = "\n".join(lines)
+    SRT.write_text(srt_text, encoding="utf-8")
+
+    # Structural validation catches malformed drafts, but does not replace
+    # listening review or synchronization against the final edited film.
+    errors = []
+    previous_end = 0.0
+    for seg in segments:
+        start, end = float(seg["start"]), float(seg["end"])
+        if not seg["text"].strip():
+            errors.append(f"Segment {seg['index']} has empty caption text")
+        if start < 0 or end <= start:
+            errors.append(f"Segment {seg['index']} has invalid interval {start}–{end}")
+        if start < previous_end - 0.002:
+            errors.append(f"Segment {seg['index']} overlaps the previous segment")
+        if end > duration + 0.02:
+            errors.append(f"Segment {seg['index']} ends beyond audio duration")
+        previous_end = end
+
+    cue_blocks = [b for b in srt_text.strip().split("\n\n") if b.strip()]
+    if len(cue_blocks) != len(segments):
+        errors.append(f"SRT cue count {len(cue_blocks)} does not match timing segment count {len(segments)}")
+    parsed_cues = 0
+    for block in cue_blocks:
+        rows = block.splitlines()
+        if len(rows) < 3 or not rows[0].strip().isdigit() or " --> " not in rows[1]:
+            errors.append(f"Malformed SRT cue block: {block[:100]!r}")
+            continue
+        parsed_cues += 1
+        if not any(row.strip() for row in rows[2:]):
+            errors.append(f"SRT cue {rows[0]} has no text")
+
+    qc = {
+        "structural_validation": "FAIL" if errors else "PASS",
+        "human_listening_review": "NOT_COMPLETED",
+        "final_video_sync": "NOT_VERIFIED",
+        "duration_seconds": round(duration, 3),
+        "sample_rate": SAMPLE_RATE,
+        "audio_samples": int(len(audio)),
+        "timing_segment_count": len(segments),
+        "srt_cue_count": len(cue_blocks),
+        "parsed_srt_cue_count": parsed_cues,
+        "errors": errors,
+        "limitations": [
+            "Structural checks do not verify pronunciation, naturalness, intelligibility or audio artefacts.",
+            "SRT timing is generated from TTS chunk boundaries and must be checked against final audio and video.",
+            "This report is not rights clearance or factual approval."
+        ]
+    }
+    QC_JSON.write_text(json.dumps(qc, ensure_ascii=False, indent=2), encoding="utf-8")
+    if errors:
+        raise SystemExit("Caption/audio structural validation failed: " + "; ".join(errors))
+    print(f"Structural validation PASS; report={QC_JSON}")
     print(f"Saved {OUT}; duration={duration:.1f}s; samples={len(audio)}")
     print(f"Saved {TIMING_JSON}; segments={len(segments)}")
     print(f"Saved {SRT}; review required")
