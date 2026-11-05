@@ -2,7 +2,8 @@
   "title": "THE WINTER WAR: How Finland Survived Stalin's Invasion (1939–1940)",
   "working_status": "development",
   "format": "long_form_documentary",
-  "target_runtime_minutes": 9,
+  "target_runtime_minutes": 9.43,
+  "actual_narration_duration_seconds": 565.7,
   "research_cutoff": "2026-10-31",
   "editorial_promise": "An evidence-led account of how Finland resisted the Soviet invasion, how Soviet forces adapted, and why the 1940 peace preserved Finnish independence at the cost of territory.",
   "audience": "General adult history audience",
@@ -17,13 +18,25 @@
     "Avoid unsupported precise casualty or displacement totals."
   ],
   "production_status": {
-    "research": "initial source register and operational supplements assembled; claim-by-claim review and second-source verification remain required",
-    "narration": "Corrected script regenerated successfully in workflow run 41156313009; generated audio and caption artifact uploaded; full human listening review, pronunciation correction and commercial licence verification remain outstanding",
-    "scenes": "17-scene moving-footage plan drafted; scene clips not generated, inspected or rights-cleared",
-    "graphics": "three original explanatory motion graphics generated; not substitutes for historical moving footage or verified geographic maps",
-    "maps": "accuracy specification drafted; geographic maps not yet produced or approved",
-    "captions": "Sentence/chunk-aligned SRT and timing JSON generated and uploaded in workflow run 41156313009; synchronization, cue quality and final audio alignment still require technical validation",
-    "edit": "not assembled",
+    "research": "Initial source register and operational supplements assembled; claim-by-claim review and second-source verification remain required.",
+    "narration": "Corrected narration audio generated and mastered in workflow run 42050525540; duration 565.7 seconds; technical file inspection passed; human listening review, pronunciation correction if needed, and full TTS licence-stack verification remain outstanding.",
+    "scenes": "17-scene moving-footage plan drafted; scene clips not generated, inspected or rights-cleared.",
+    "graphics": "Three original explanatory motion graphics generated; not substitutes for historical moving footage or verified geographic maps. Motti and treaty graphics require final visual/history review.",
+    "maps": "Accuracy specification drafted; geographic maps not yet produced or approved.",
+    "captions": "86 SRT cues generated; structural validation passed with no reported errors; final audio/video sync, readability and human caption review remain outstanding.",
+    "edit": "Narration-locked 17-scene edit timeline v1 created; final documentary not assembled.",
     "publication": "HOLD"
+  },
+  "latest_generation": {
+    "workflow_run_id": 42050525540,
+    "workflow_url": "https://github.com/christofa611-afk/nature-doc-generator/actions/runs/42050525540",
+    "artifact_id": 13426961721,
+    "artifact_name": "winter-war-narration-and-captions",
+    "artifact_sha256": "a559ef1127f6e6e3f36f1d0816525ff5b2823aca32d5b00d897ae2643a68973e",
+    "audio_duration_seconds": 565.7,
+    "srt_cue_count": 86,
+    "caption_structural_validation": "PASS",
+    "human_listening_review": "NOT_COMPLETED",
+    "final_video_sync": "NOT_VERIFIED"
   }
 }
