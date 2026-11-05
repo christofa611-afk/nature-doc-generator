@@ -9,7 +9,7 @@ THE WINTER WAR: How Finland Survived Stalin's Invasion (1939–1940)
 Use the primary title unless the final cut strongly supports a different truthful emphasis. Do not use "Finland defeated the Soviet Union" or imply Finland won the war.
 
 ## Description draft
-In November 1939, the Soviet Union invaded Finland The Soviet Union possessed a far larger population, industrial base and pool of military resources than Finland. Finnish forces used terrain, mobility and prepared defences to resist the invasion for 105 days.
+In November 1939, the Soviet Union invaded Finland. The Soviet Union possessed a far larger population, industrial base and pool of military resources than Finland. Finnish forces used terrain, mobility and prepared defences to resist the invasion for 105 days.
 
 This documentary examines the invasion, the fighting in the forests and along the Karelian Isthmus, the Finnish motti method, the Mannerheim Line, and the Soviet military's adaptation in February 1940. It also explains the difficult peace that followed: Finland remained independent, but ceded territory and faced the displacement of many of its people.
 
@@ -77,3 +77,12 @@ Timestamps must be recalculated against the final narration recording and edited
 ## Paid promotion and synthetic-content declarations
 - Paid promotion: select the declaration only if the upload includes a paid placement, sponsorship, endorsement or other benefit in exchange for promoting a brand. If none exists, do not select it. If a compensated relationship does exist, disclose it as required; never misclassify to avoid a label. Ordinary YouTube-served ads are not, by themselves, creator-paid promotion.
 - Altered/synthetic content: answer separately and accurately. Realistic AI-generated scenes depicting events or places that did not occur may require YouTube's disclosure. Never hide a required synthetic-content disclosure.
+
+
+## Card placement plan — editorial anchors, final timestamps pending
+Use only if a relevant public video or playlist exists at upload time. Otherwise omit the card; never link unrelated content merely to satisfy a count.
+- **Geography / campaign context:** when the narration first establishes the Karelian Isthmus and northern fronts, offer a related Winter War / Eastern Front explainer or playlist.
+- **Motti tactics:** immediately after the motti explanation has reached its payoff, offer a relevant military-strategy explainer or tactics playlist.
+- **Soviet adaptation:** after the February 1940 breakthrough is explained, offer a related Eastern Front / WWII campaign video if one exists.
+- Select at most the most useful one or two cards; cards must not interrupt a critical sentence or the cold open. Convert these editorial anchors into exact timestamps only after picture lock.
+- Record the actual card destination, timestamp, saved status and verification date in the upload record. The current channel's public catalogue has not been verified in this session, so no card destination is asserted.
