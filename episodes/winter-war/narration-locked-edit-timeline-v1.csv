@@ -1,0 +1,18 @@
+scene_id,scene_title,in_seconds,out_seconds,duration_seconds,narration_cues,asset_status
+S01,Invasion begins,0.000,41.600,41.600,1-5,HOLD
+S02,Strategic geography,41.600,59.750,18.150,6-9,HOLD_MAP_RIGHTS
+S03,Scale and conditions of invasion,59.750,79.150,19.400,10,HOLD
+S04,Terrain and Finnish mobility,79.150,121.250,42.100,11-17,HOLD
+S05,Limits of Finnish resistance,121.250,143.150,21.900,18-22,HOLD
+S06,Northern campaign,143.150,170.325,27.175,23-25,HOLD
+S07,Motti explained,170.325,225.375,55.050,26-35,GRAPHIC_EXISTS_REVIEW_REQUIRED
+S08,Southern front and Isthmus,225.375,253.450,28.075,36-37,HOLD
+S09,Mannerheim Line,253.450,339.025,85.575,38-48,HOLD
+S10,Soviet command adapts,339.025,361.425,22.400,49-52,HOLD
+S11,Artillery concentration,361.425,373.875,12.450,52-55,HOLD
+S12,Breakthrough,373.875,414.750,40.875,56-62,HOLD
+S13,Decision to negotiate,414.750,433.450,18.700,63-65,HOLD
+S14,Treaty and ceasefire,433.450,444.225,10.775,65-68,GRAPHIC_EXISTS_REVIEW_REQUIRED
+S15,Territorial loss and displacement,444.225,466.775,22.550,69-74,HOLD_MAP_RIGHTS
+S16,Legacy and military lessons,466.775,528.600,61.825,75-81,HOLD
+S17,Closing reflection,528.600,565.700,37.100,82-86,HOLD
