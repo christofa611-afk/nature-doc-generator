@@ -33,3 +33,7 @@ An Actions workflow at `.github/workflows/render-motion-graphics.yml` generates 
 
 ## Open-weight narration
 The workflow `.github/workflows/generate-narration.yml` synthesizes the episode narration with Kokoro-82M (`am_michael`) on a standard CPU runner. The model card lists Apache-2.0 weights. The generated voice is synthetic and must be reviewed for pronunciation, pacing, intelligibility and consistency before use. This is a separate open-weight workflow, not a paid TTS API.
+
+
+## Channel growth and publishing standards
+See [CHANNEL_GROWTH_OPERATING_PLAN.md](CHANNEL_GROWTH_OPERATING_PLAN.md) for the 2-long-form + 1-Short weekly target, 8,000-watch-hour / 250,000-monthly-view goals, competitor scan, audience positioning, monthly SEO scorecard, retention framework, and mandatory end-screen/card/policy checks. These are targets and workflows, not guarantees of results. Each episode's upload checklist must be completed in YouTube Studio; repository records do not mean cards, end screens, metadata or uploads have been applied.
