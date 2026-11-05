@@ -1,88 +1,143 @@
 # YouTube packaging — Winter War
 
-## Primary title
-THE WINTER WAR: How Finland Survived Stalin's Invasion (1939–1940)
+**Status:** SEO package prepared from the approved narration and public competitor/search evidence. TubeBuddy Free private keyword scores have not been accessed or independently verified. No YouTube Studio settings have been changed.
 
-## Alternative title for testing
-105 Days Against Stalin: Finland's Winter War
+## 1. Recommended title
 
-Use the primary title unless the final cut strongly supports a different truthful emphasis. Do not use "Finland defeated the Soviet Union" or imply Finland won the war.
+**The Winter War (1939–1940): How Finland Survived the Soviet Invasion**
 
-## Description draft
-In November 1939, the Soviet Union invaded Finland. The Soviet Union possessed a far larger population, industrial base and pool of military resources than Finland. Finnish forces used terrain, mobility and prepared defences to resist the invasion for 105 days.
+Why this is the lead:
+- Places the exact subject and date range at the front.
+- Uses the accurate phrase "survived" rather than falsely claiming Finland defeated the Soviet Union.
+- States the invasion clearly and promises an explanatory documentary.
 
-This documentary examines the invasion, the fighting in the forests and along the Karelian Isthmus, the Finnish motti method, the Mannerheim Line, and the Soviet military's adaptation in February 1940. It also explains the difficult peace that followed: Finland remained independent, but ceded territory and faced the displacement of many of its people.
+## 2. Alternate titles for later testing
 
-The Winter War was not a simple story of a small army defeating a superpower. It was a costly struggle in which Finland preserved its statehood while the Soviet Union achieved major territorial demands.
+1. **105 Days Against Stalin: Finland’s Winter War Explained**
+2. **The Soviet Invasion of Finland: The Winter War Explained (1939–1940)**
+3. **How Finland Survived the Soviet Invasion in 1939–1940**
 
-**Research references**
+Do not change the title repeatedly during the first hours after publication. If testing is available in YouTube Studio, compare packaging using the channel's own impressions, CTR and watch-time outcomes. Do not infer a winner from TubeBuddy's score alone.
+
+## 3. Search intent and keyword map
+
+### Primary phrase
+- Winter War 1939–1940
+
+### Core secondary phrases
+- Winter War documentary
+- Soviet invasion of Finland
+- Finland Winter War
+- Finland vs Soviet Union 1939
+- Stalin invasion of Finland
+- Russo-Finnish War 1939–1940
+- World War 2 Finland
+
+### Supporting long-tail phrases
+- How Finland survived the Winter War
+- Why the Soviet Union invaded Finland in 1939
+- Mannerheim Line explained
+- Suomussalmi battle Winter War
+- Raate Road battle
+- Finnish motti tactics explained
+- Soviet breakthrough February 1940
+- Moscow Peace Treaty 1940
+
+### Topic entities
+Finland; Soviet Union; USSR; Joseph Stalin; Red Army; Carl Gustaf Emil Mannerheim; Karelian Isthmus; Suomussalmi; Raate Road; Mannerheim Line; Moscow Peace Treaty; World War II.
+
+Use the phrases naturally. Do not repeat variants unnaturally or treat tags as a substitute for a compelling documentary and accurate title.
+
+## 4. Description — ready for final upload after runtime and sources are checked
+
+The Winter War (1939–1940) began when the Soviet Union invaded Finland on 30 November 1939. This documentary explains how Finland resisted for 105 days, why the Red Army struggled at first, and how Soviet forces eventually broke through Finnish defences.
+
+Explore the fighting in the forests and along the Karelian Isthmus, the motti method used to isolate enemy formations, the Mannerheim Line, and the Soviet military's adaptation in February 1940. Then follow the difficult peace that ended the war: Finland remained independent, but ceded territory and many residents had to leave their homes.
+
+This is not a story of Finland defeating the Soviet Union. It is the story of a smaller country preserving its independence at a devastating cost—and of an invading army learning, adapting and eventually achieving a breakthrough.
+
+**Chapters**
+Add only after the final edited master is locked and every timestamp has been checked against the actual video.
+
+**Further reading and research**
 - Finnish Government — Winter War began 80 years ago today: https://valtioneuvosto.fi/en/-/winter-war-began-80-years-ago-today
 - Finnish Government — End of Winter War to be commemorated on 13 March: https://valtioneuvosto.fi/en/-/end-of-winter-war-to-be-commemorated-on-13-march
 - Pasi Tuunainen, *Finnish Military Effectiveness in the Winter War 1939–1940*: https://link.springer.com/book/10.1057/978-1-137-44606-0
 - War on the Rocks — Breaking the Mannerheim Line: https://warontherocks.com/breaking-the-mannerheim-line-soviet-strategic-and-tactical-adaptation-in-the-finnish-soviet-winter-war/
 - University of Maryland — The Russian Record of the Winter War, 1939–1940: https://drum.lib.umd.edu/items/29bcd3f6-1545-4b26-8131-3b93db6a02ad
 
-Historical reconstructions, if used in the final film, will be disclosed as required by YouTube. Archival material will be credited according to its item-level licence.
-
 Subscribe for evidence-led documentaries on the wars, power struggles and decisions that shaped our world.
 
-## Tags
-Winter War, Finland, Soviet Union, USSR, Stalin, 1939, 1940, World War II history, military history, Finnish history, Red Army, Mannerheim Line, Suomussalmi, Raate Road, motti tactics, Eastern Front, history documentary, forgotten history, European history, WWII documentary
+#WinterWar #Finland #WW2History
 
-## Thumbnail copy
-Primary: **105 DAYS**
-Secondary: **FINLAND UNDER ATTACK**
+## 5. Tags — ready to paste
 
-Avoid "FINLAND DEFEATED STALIN", "THE IMPOSSIBLE VICTORY", or any wording that overstates the result.
+Winter War, Winter War 1939 1940, Winter War documentary, Soviet invasion of Finland, Finland Winter War, Finland vs Soviet Union, Russo Finnish War, Stalin, Soviet Union, USSR, Finland history, Finnish history, World War 2, World War II history, WW2 documentary, military history, Mannerheim Line, Suomussalmi, Raate Road, motti tactics, Red Army, Eastern Front, 1939, 1940, history documentary
 
-## Chapters — provisional only
-Timestamps must be recalculated against the final narration recording and edited master. Do not upload these estimates as synchronized chapters.
-- 00:00 The invasion begins
-- 01:10 A battlefield shaped by geography
-- 02:35 The northern fighting and motti
-- 04:05 The Mannerheim Line
-- 05:25 The Red Army adapts
-- 07:00 The decision to make peace
-- 08:05 What the Winter War reveals
+Tags are supporting metadata, not a ranking guarantee. Prioritise the title, opening description, viewer satisfaction and retention.
 
-## Upload checks
-- Category: Education or Documentary/Film & Animation as best fits channel settings.
-- Audience setting: determine accurately; this is not automatically made for kids merely because it is educational.
-- Altered content: answer YouTube's disclosure question accurately for realistic AI reconstructions.
-- Visibility: private/unlisted review first; schedule public only after final QC.
+## 6. Thumbnail direction
 
+### Recommended concept
+A cinematic, historically plausible winter battlefield composition: Finnish soldiers in period-correct winter clothing in the foreground, a snowbound forest road and distant Soviet military column in the background. Clear visual hierarchy, strong contrast, one central focal point, no clutter.
 
-## SEO and retention handoff
-- Primary search phrase: Winter War Finland 1939–1940.
-- Supporting phrases: Soviet invasion of Finland; Winter War documentary; Finland vs Soviet Union 1939; Suomussalmi and Raate Road; Mannerheim Line.
-- Use these naturally in the title, opening description lines and narration context. Do not repeat keywords unnaturally; tags are secondary to the viewer promise, relevance and retention.
-- Replace all provisional chapters with timestamps generated from the final edited master and verify each chapter start manually.
-- First two description lines must state the subject and documentary promise clearly before the viewer expands the description.
-- Add the final video to the appropriate playlist and link the playlist in the description only after the playlist exists.
+### Thumbnail words
+**105 DAYS**
 
-## End screen — mandatory before public release
-- [ ] Reserve the final 20 seconds for an intentional end-screen composition.
-- [ ] Add one relevant next video or playlist and the channel Subscribe element in YouTube Studio.
-- [ ] Confirm that the chosen next video/playlist is public or otherwise appropriately accessible.
-- [ ] Check that the elements do not cover important footage or captions; preview desktop and mobile layout.
-- [ ] Save and verify the end screen in Studio; record the destination and verification date.
+Optional small supporting line only if legible at mobile size: **FINLAND 1939–40**
 
-## Cards — mandatory where eligible and relevant
-- [ ] Add at least one useful video or playlist card at a moment that naturally references the related subject.
-- [ ] Do not interrupt the cold open, critical evidence or emotional climax.
-- [ ] Cards are unavailable on Made for Kids videos; verify eligibility before attempting.
-- [ ] Use no more than five cards and do not add irrelevant cards merely to fill the allowance.
-- [ ] Save and verify cards in Studio; record timestamp and destination.
+Do not use:
+- "FINLAND DEFEATED STALIN"
+- "THE IMPOSSIBLE VICTORY"
+- fabricated casualty numbers
+- fake archival labels or misleading real-person depictions
 
-## Paid promotion and synthetic-content declarations
-- Paid promotion: select the declaration only if the upload includes a paid placement, sponsorship, endorsement or other benefit in exchange for promoting a brand. If none exists, do not select it. If a compensated relationship does exist, disclose it as required; never misclassify to avoid a label. Ordinary YouTube-served ads are not, by themselves, creator-paid promotion.
-- Altered/synthetic content: answer separately and accurately. Realistic AI-generated scenes depicting events or places that did not occur may require YouTube's disclosure. Never hide a required synthetic-content disclosure.
+Creative score aspiration: 95/100. This is an internal design target, not a promised CTR.
 
+## 7. Provisional chapter structure — timestamps must be generated from final master
 
-## Card placement plan — editorial anchors, final timestamps pending
-Use only if a relevant public video or playlist exists at upload time. Otherwise omit the card; never link unrelated content merely to satisfy a count.
-- **Geography / campaign context:** when the narration first establishes the Karelian Isthmus and northern fronts, offer a related Winter War / Eastern Front explainer or playlist.
-- **Motti tactics:** immediately after the motti explanation has reached its payoff, offer a relevant military-strategy explainer or tactics playlist.
-- **Soviet adaptation:** after the February 1940 breakthrough is explained, offer a related Eastern Front / WWII campaign video if one exists.
-- Select at most the most useful one or two cards; cards must not interrupt a critical sentence or the cold open. Convert these editorial anchors into exact timestamps only after picture lock.
-- Record the actual card destination, timestamp, saved status and verification date in the upload record. The current channel's public catalogue has not been verified in this session, so no card destination is asserted.
+1. The invasion begins
+2. A battlefield shaped by geography
+3. The northern fighting and motti
+4. The Mannerheim Line
+5. The Red Army adapts
+6. The decision to make peace
+7. What the Winter War reveals
+
+Do not upload estimated timestamps as final chapters. Re-time against the final rendered video.
+
+## 8. Pinned comment draft
+
+The Winter War ended with Finland still independent—but at a severe territorial cost. Which part of the campaign do you think is most misunderstood: the northern motti battles, the Mannerheim Line, or the Soviet breakthrough in February 1940? Please explain your answer respectfully and support historical claims with sources.
+
+## 9. Playlist and internal discovery
+
+Suggested playlist name: **World War II: Forgotten Fronts and Turning Points**
+
+Add the documentary only after the playlist exists. Link the playlist in the description and use it as an end-screen destination only if it is a relevant, accessible next viewing choice.
+
+## 10. Upload and measurement checklist
+
+- [ ] Confirm final video runtime and synchronise chapters against the rendered master.
+- [ ] Confirm title and opening description match the final cut.
+- [ ] Check thumbnail at mobile size and ensure all text is readable.
+- [ ] Verify all footage, music, maps, fonts and sound assets have documented commercial-use rights.
+- [ ] Answer the altered/synthetic-content disclosure question accurately if realistic AI reconstructions appear.
+- [ ] Declare paid promotion only if an actual paid placement, sponsorship, endorsement or other compensated promotion exists; do not misclassify it.
+- [ ] Set audience designation accurately; educational history is not automatically Made for Kids.
+- [ ] Add relevant end-screen elements in the final 5–20 seconds, then save and verify in YouTube Studio.
+- [ ] Add only useful, contextually relevant cards where eligible; Made for Kids restrictions apply.
+- [ ] Check captions, audio, visuals, historical accuracy and mobile playback before public release.
+- [ ] Record baseline impressions, CTR by traffic source, average view duration, first-30-second retention, watch time, search terms and returning viewers after publication.
+- [ ] Review performance after a meaningful sample, not from a handful of early impressions.
+- [ ] Keep the video on HOLD until final audio, visual, factual, rights and disclosure checks pass.
+
+## 11. Evidence and limits
+
+Public evidence confirms that Winter War documentaries attract substantial views, including Real Time History's documentary titled *Soviet Invasion of Finland: Winter War 1939-40*. This is a demand signal, not a keyword search-volume measurement or a forecast for this channel.
+
+Public topic reference: https://www.studyfinnish.com/other/media/documentaries/
+Public competitor example: https://www.youtube.com/watch?v=Dmb8lJjk9U8
+Historical overview: https://www.history.com/articles/what-was-the-winter-war
+
+TubeBuddy Free is installed according to the user's report, but its private keyword scores, search-volume estimates and channel connection details have not been read in this workflow. Do not claim TubeBuddy validation until those values are actually available. Do not buy an upgrade or activate a trial.
