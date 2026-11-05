@@ -20,7 +20,17 @@
 | End screens | Every eligible long-form upload |
 | Cards | Relevant cards on eligible videos |
 
-These are planning targets, not guaranteed outcomes. 4,500 views × 5 minutes = 375 watch hours per long-form video. At 8 long videos per four weeks, the target run rate is 3,000 hours per four-week month if every upload achieves both targets. 8,000 hours therefore requires approximately 22 such videos (8,250 hours) before allowing for views on the back catalogue. 250,000 monthly views at a five-minute average duration would mathematically yield about 20,833 watch hours, but average duration across all channel views and eligible public long-form watch hours are different measures.
+These are planning targets, not guaranteed outcomes. The arithmetic is explicit:
+
+- One long-form upload at 4,500 views × 5:00 average view duration = 22,500 watched minutes = **375 watch hours**.
+- Two such uploads per week = **750 watch hours per week** at the target run rate.
+- At this performance, 22 uploads produce 99,000 views and **8,250 watch hours**. At two uploads per week, 22 uploads take 11 weeks (77 days) to publish; this is a steady-state scenario, not a forecast that new uploads will immediately earn 4,500 views.
+- In 120 days, the cadence produces about 34 long-form uploads; if every upload reaches 4,500 views at 5:00 average duration, that cohort would generate about **12,750 watch hours**. In 240 days, about 69 uploads would generate about **25,875 watch hours**. These totals assume each upload reaches its full 4,500-view target inside the measurement period and exclude any back-catalogue contribution; real accumulation is delayed and uneven.
+- To reach 8,000 hours from long-form alone at exactly 5:00 average duration requires **96,000 eligible long-form views**. The minimum 4,500 views per upload is therefore a useful per-video floor, not enough on its own unless it is achieved consistently across at least 22 uploads.
+- **250,000 monthly channel views is a separate, much harder reach target.** At two long-form uploads weekly, 4,500 views per upload yields only about 36,000 new-upload views in a four-week period. The remaining roughly 214,000 monthly views would need to come from the back catalogue, additional distribution and/or Shorts. Shorts-feed views can contribute to total channel views but their watch time does **not** count toward the public long-form watch-hour route.
+- If all 250,000 monthly views were eligible long-form views with a 5:00 average view duration, they would mathematically produce about **20,833 watch hours**. Do not use this calculation when the view mix includes Shorts, paid ad views, private/unlisted/deleted videos or other ineligible sources.
+
+**Measurement discipline:** report eligible public long-form watch hours separately from total channel views and Shorts engaged views. Track each long-form upload at 7, 28 and 90 days; the 4,500-view target is assessed cumulatively per upload at the 90-day checkpoint unless a different window is explicitly agreed. Track the 5:00 average duration on the same upload and period. If the channel misses the trajectory, diagnose topic demand, impressions, CTR, opening retention, average view duration, and back-catalogue discovery rather than assuming more uploads will fix it.
 
 YouTube's standard YPP route currently requires 1,000 subscribers and 4,000 valid public watch hours in the previous 12 months, or 10 million valid public Shorts views in 90 days. Shorts-feed watch time does not count toward the 4,000-hour route. The 8,000-hour goal is a stretch target, not the eligibility threshold. Check current YPP requirements in Studio before applying.
 
@@ -207,3 +217,26 @@ No YouTube Studio edit access was available in this workflow, so end screens, ca
 
 ---
 **Status:** Strategy and monthly review schedule prepared. This document is not evidence that any video has been generated, uploaded, scheduled, or had its cards/end screens configured.
+
+
+## 13. Channel-specific access blocker and research boundary — 5 November 2026
+The connected vidIQ identity returned SonicVibes and Nature Frontiers, but not the Untapped History channel ID in this plan. The public channel URL/ID is known, but private Studio metrics and connected-channel keyword tools are not currently authorized for this target. No private Untapped CTR, retention, search terms, subscriber trend or keyword-volume data is asserted here. Do not use Nature Frontiers or SonicVibes analytics as a proxy. Public competitor research and official policy references can continue; private channel diagnosis requires the owner to reconnect the correct Google/YouTube account to vidIQ.
+
+### Competitive positioning: what to do differently
+The competitor scan is a strategic sample, not proof that a competitor never covers a subject. The goal is not to claim others fail; it is to combine strengths that are usually presented separately:
+1. **Epic History TV:** borrow the clarity of a dramatic campaign arc, not its exact pacing, visual identity or title phrasing. Opportunity: apply this arc to overlooked conflicts and the political decisions before/after the battle.
+2. **Kings and Generals:** learn from broad geographic coverage, maps and serialised campaigns. Opportunity: do not make animated battle maps the whole film; interweave verified moving scene reconstructions, civilian and logistical consequences, and explicit evidence limits.
+3. **The Operations Room:** learn sequential operational clarity. Opportunity: explain why decisions were made and how logistics, intelligence, diplomacy and terrain constrained them, not only where units moved.
+4. **Mark Felton Productions:** learn the power of a sharply framed lesser-known military story. Opportunity: make source provenance, competing interpretations and visual authenticity unusually transparent.
+5. **Fall of Civilizations:** learn atmospheric immersion and patience. Opportunity: offer a more compact, decision-led documentary with a strong question and visual progression, reserving long specials for subjects that justify them.
+
+**The channel's testable editorial signature:** “One consequential decision. The evidence behind it. The people and places it changed.” Each film must have a unique thesis, a documented decision or turning point, at least one visual explanation (map/diagram where geography matters), a counterargument or uncertainty section, and a clear consequence. Use African, Asian, Middle Eastern, Latin American, Pacific and Eastern European conflicts as substantive subjects, not token episodes. This is a positioning hypothesis to validate through viewer response and search/suggested analytics over 60–90 days.
+
+### Monthly SEO review operating rule
+Use matched 28-day periods and do not compare different formats as if they were equivalent. For each long-form upload, inspect title/thumbnail promise, impressions, CTR by traffic source, first 30 seconds, retention curve, average view duration, search terms, suggested-video sources, end-screen click rate and card performance. Tags are a minor spelling/context aid, not the growth strategy. Run one controlled packaging test at a time where possible; do not change title, thumbnail, opening and topic simultaneously and then claim causation. Record the test, baseline, change, result and next action.
+
+### End-screen and card implementation
+For each eligible long-form film, leave a deliberate final 15–20 seconds in the edit. In YouTube Studio add a relevant next video or focused playlist plus Subscribe, preview at desktop and mobile sizes, save, then verify the saved elements and record the destination. Add a relevant card at a natural narrative transition to an existing related video or playlist; do not insert one during the cold open, key evidence or emotional climax. Do not claim an end screen or card is configured until the Studio edit has actually been saved and checked. Cards and end screens are unavailable on Made for Kids content; audience designation must be accurate.
+
+### Advertising declaration rule
+Do not select the paid-promotion declaration for ordinary creator-produced documentaries with no compensated brand placement, sponsorship, endorsement or other paid promotion. YouTube-served ads are not the same thing as creator paid promotion. If compensation or another covered commercial relationship exists, disclose it accurately; never suppress a required disclosure. This is separate from the altered/synthetic-content disclosure for realistic AI reconstructions.
